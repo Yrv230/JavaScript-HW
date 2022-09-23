@@ -3,7 +3,7 @@ let minNum = +prompt('Введите минимальное число');
 let maxNum = +prompt('Введите максимальное число');
 
 function random(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + 1)
+    return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
 for(let i = 0; i < count; i++) {
