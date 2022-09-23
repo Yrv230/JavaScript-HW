@@ -1,4 +1,3 @@
-
 function userdata(name, birthDate, todays) {
     let data = name + ', ' + birthDate + ', ' + 'it`s ' + todays + ' now.';
     return data;
